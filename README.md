@@ -56,6 +56,5 @@ UofT coding bootcamp prework project
 
 ## Acknowledgments
 
-- Kevin Powell - [](https://www.kevinpowell.co/)
-
-- Zell - [](https://learnjavascript.today/)
+- [Kevin Powell](https://www.kevinpowell.co/)
+- [Zell](https://learnjavascript.today/)
