@@ -20,7 +20,7 @@ UofT coding bootcamp prework project
 ![Screenshot-Desktop-Prework-Study-Guide](https://user-images.githubusercontent.com/123032297/221490397-5589e9b3-788a-49f6-85c9-a7f628040747.png)
 ![Screenshot-Desktop-Prework-Study-Guide-2](https://user-images.githubusercontent.com/123032297/221490569-0eda6032-1013-4964-9024-f4c87441f0c4.png)
 ![Screenshot-Mobile-Prework-Study-Guide](https://user-images.githubusercontent.com/123032297/221490585-aeb1dc45-34ab-4a9d-b9ab-2be940014d5a.png)
-![Screenshot-Mobile-Prework-Study-Guide-2](https://user-images.githubusercontent.com/123032297/221490595-23adc4a7-b14a-44d1-a254-7bcf74839442.png)
+
 
 
 
