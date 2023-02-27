@@ -6,60 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prework Study Guide</title>
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e0b43907e8.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header id="header">
-      <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
-      <h2>✨Open the Console to See What's Happening✨</h2>
-    </header>
-    
-    <main>
-      <section class="card" id="html-section">
-        <h2>HTML</h2>
-        <ul>
-          <li>The <code>&lt;head&gt;</code> element contains information about the webpage.</li>
-          <li>The <code>&lt;body&gt;</code> element represents the visible content shown to the user.</li>
-          <li>The <code>&lt;header&gt;</code> element contains introductory content and/or a site navigation menu.</li>
-          <li>The <code>&lt;main&gt;</code> element contains the most important content of the page.</li>
-          <li>The <code>&lt;footer&gt;</code> element appears at the bottom of the page and usually contains author, copyright, contact, sitemap, and navigation.</li>
-          <li>When using headings, it is important that we use heading tags in order from <code>&lt;h1&gt; to &lt;h6&gt;</code>  to make the page accessible to users who access the page using screen readers or other devices.</li>
-          <li>The <code>&lt;h1&gt;</code> should only appear once on each page.</li>
-          <li>The <code>&lt;alt&gt;</code> attribute for a <code>&lt;img&gt;</code> element contains a text string that describes the appearance and functionality of the image. The alt text is important for screen readers and other assistive technologies. Alt text is known to also improve search engine rankings for your website.</li>
-        </ul>
-      </section>
-
-      <section class="card" id="css-section">
-        <h2>CSS</h2>
-        <ul>
-          <li>A <strong>margin</strong> indicates how much space we want around the outside of an element.</li>
-          <li>A <strong>padding</strong> indicates how much space we want around the content inside an element.</li>
-        </ul>
-      </section>
-
-      <section class="card" id="git-section">
-        <h2>Git</h2>
-        <ul>
-          <li><strong>git status</strong> checks what branch we are currently on.</li>
-          <li><strong>git checkout -b branch-name</strong> creates a new branch and switches to it.</li>
-          <li><strong>git add -A</strong> add all files to the staging area.</li>
-          <li><strong>git commit -m "commit-message"</strong> creates a new version of the of the project that contains all of the files in the staged area.</li>
-        </ul>
-      </section>
-
-      <section class="card" id="javascript-section">
-        <h2>JavaScript</h2>
-        <ul>
-          <li>The <code>&lt;head&gt;</code> element contains information about the webpage.</li>
-          <li>The <code>&lt;body&gt;</code> element represents the visible content shown to the user.</li>
-          <li>The <code>&lt;header&gt;</code> element contains introductory content and/or a site navigation menu.</li>
-        </ul>
-      </section>
-    </main>
-
-    <footer>
-      <p>I can code!</p>
-    </footer>
+    <div id="page-container">
+      <header>
+        <div class="header-container">
+          <div class="header__content">
+            <h1>Prework Study Guide</h1>
+            <img src="./assets/MattMillard_Headshot_2021-1.jpg" alt="Profile picture of the page developer - Matt Millard."/>
+          </div>
+        </div>
+      </header>
+      
+      <div id="content-wrap">
+        <main>
+          <section class="card" id="html-section">
+            <h2 class="card__header">HTML</i></h2>
+            <ul class="card__content" role="list"">
+              <li>The <code>&lt;head&gt;</code> element contains information about the webpage.</li>
+              <li>The <code>&lt;body&gt;</code> element represents the visible content shown to the user.</li>
+              <li>The <code>&lt;header&gt;</code> element contains introductory content and/or a site navigation menu.</li>
+              <li>The <code>&lt;main&gt;</code> element contains the most important content of the page.</li>
+              <li>The <code>&lt;footer&gt;</code> element appears at the bottom of the page and usually contains author, copyright, contact, sitemap, and navigation.</li>
+              <li>When using headings, it is important that we use heading tags in order from <code>&lt;h1&gt; to &lt;h6&gt;</code>  to make the page accessible to users who access the page using screen readers or other devices.</li>
+              <li>The <code>&lt;h1&gt;</code> should only appear once on each page.</li>
+              <li>The <code>&lt;alt&gt;</code> attribute for a <code>&lt;img&gt;</code> element contains a text string that describes the appearance and functionality of the image. The alt text is important for screen readers and other assistive technologies. Alt text is known to also improve search engine rankings for your website.</li>
+            </ul>
+          </section>
+          <section class="card" id="css-section">
+            <h2 class="card__header">CSS</h2>
+            <ul class="card__content" role="list">
+              <li>A <strong>margin</strong> indicates how much space we want around the outside of an element.</li>
+              <li>A <strong>padding</strong> indicates how much space we want around the content inside an element.</li>
+              <li><strong>Separation of concerns</strong> refers to separating code into different files based on use.</li>
+              <li>External CSS style sheet is the preferred way to style a webpage. Inline CSS and internal style sheets are totally acceptable methods under certain conditions.</li>
+              <li><strong>(DRY) Do Not Repeat Yourself</strong> is a coding principle that enourages developers to reuse or share pieces of code in order to reduce the number of lines of code.</li>
+            </ul>
+          </section>
+          <section class="card" id="git-section">
+            <h2 class="card__header">Git</h2>
+            <ul class="card__content" role="list">
+              <li><strong>git status</strong> checks what branch we are currently on.</li>
+              <li><strong>git checkout -b branch-name</strong> creates a new branch and switches to it.</li>
+              <li><strong>git add -A</strong> add all files to the staging area.</li>
+              <li><strong>git commit -m "commit-message"</strong> creates a new version of the of the project that contains all of the files in the staged area.</li>
+            </ul>
+          </section>
+          <section class="card" id="javascript-section">
+            <h2 class="card__header">JavaScript</h2>
+            <ul class="card__content" role="list">
+              <li>JavaScript (JS) is a high-level dynamic programming language that allows users to interact with websites.</li>
+              <li>A JavaScript file ends with <code>.js</code></li>
+              <li>A variable in JavaScript is simply a named container that allows us to store data in our code.</li>
+              <li>To declare a variable in JavaScript, we use the var, const or let keyword. After the keyword, we give the variable a name. This name must be unique because it is how we will reference the information stored in the variable in our code.</li>
+              <li>We use an assignment operator <code>=</code> to assign the specific data that we want stored in our variable.
+              <code>const shape = 'triangle'</code></li>
+              <li>We can use the <code>console.log()</code> method to output a message to the web console by adding an argument. Example. <code>console.log(shape)</code>. This will print the value of the shape variable to the console. // triangle.</li>
+              <li>A string value is contained within quotation marks, <code>''</code>. It can either be single or double quotations. Just be consistant.</li>
+            </ul>
+          </section>
+        </main>
+      </div>
+      <footer>
+          <div class="footer__content">
+            <div class="copyright">
+              <p>Matthew Millard's Prework Study Guide <span id="copyright">2023</span></p>
+            </div>
+            <div class="social-icons">
+              <a href="https://github.com/matthew-millard" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://twitter.com/_MattMillard" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/matthew-millard-ab7b90250/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+      </footer>
+    </div>
   <script src="./assets/main.js" async></script>
   </body>
 </html>
