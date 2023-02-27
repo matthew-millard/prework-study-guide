@@ -40,9 +40,23 @@ UofT coding bootcamp prework project
 
 ### What I learned
 
-- Using an ::after pseudo element for the first time.
+- Just learnt about the forEach() method, so it was awesome to be able to apply it to this assignment.
+```
+const accordions = Array.from(document.querySelectorAll('.card'))
 
-- Just learnt about the forEach() method, so it was awesome to be able to apply it to this challenge.
+
+accordions.forEach(accordion => {
+  const accordionHeader = accordion.querySelector('.card__header')
+  const accordionContent = accordion.querySelector('.card__content')
+
+
+
+    accordionHeader.addEventListener('click', event => {
+      accordionContent.classList.toggle('card__content--open')
+  })
+})
+
+```
 
 ### Continued development
 
